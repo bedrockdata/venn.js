@@ -72,7 +72,7 @@
                     }
                 }
                 
-                if(arc != null) {
+                if(arc !== null) {
                     arcs.push(arc);
                     arcArea += venn.circleArea(arc.circle.radius, arc.width);
                 }
