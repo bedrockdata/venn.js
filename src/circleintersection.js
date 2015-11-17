@@ -71,8 +71,12 @@
                         }
                     }
                 }
-                arcs.push(arc);
-                arcArea += venn.circleArea(arc.circle.radius, arc.width);
+                
+                if(arc != null) {
+                    arcs.push(arc);
+                    arcArea += venn.circleArea(arc.circle.radius, arc.width);
+                }
+
                 p2 = p1;
             }
         } else {
